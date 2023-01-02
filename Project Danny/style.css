@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #333;
+    background:rgb(221, 221, 221);
+}
+.container .con{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 500px;
+}
+.container .con input{
+    width:200px;
+    border-radius: 7px;
+    height: 40px;
+    padding: 5px 10px;
+    background: transparent;
+    color: black;
+}
+.container .navbar{
+    padding: 120px;
+    color: #fff;
+    background-image: url(../Project\ Danny/images/navba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+.container .navbar h4{
+    color: red;
+}
+.container .navbar input{
+    background-color: rgb(67, 67, 252);
+    padding: 5px;
+}
+.size{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.size .contain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.size .contain .layer{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+.size .contain .layer h4{
+    text-align: center;
+}
+.size .contain .layers{
+    padding-left: 60px;
+    padding-top: 80px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+.size .contain .layers h4{
+    text-align: center;
+}
+.size .contain .layerss{
+    padding-left: 60px;
+    padding-top: 80px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+.size .contain .layerss h4{
+    text-align: center;
+}
+.size .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.size .container .layer1{
+    background-image: url(../Project/for\ coding/exodus.jpg);
+    background-size: cover;
+    padding-top: 300px;
+    padding-right: 200px;
+    padding-left: 10px;
+    background-color: black;
+    color:black;
+}
+.size .container .layer1 h3{
+    text-align: start;
+}
+.size .container .layer1 h6{
+    text-align: start;
+}
+/*.size .container .layersz{
+    justify-content: space-between;
+}*/
+.size .container .layersz .sublayer{
+    background-image: url(../Project/for\ coding/now.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-right: 300px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: #fff;
+    align-self: flex-start;
+}
+.size .container .layersz .sublayer1{
+    background-image: url(../Project/for\ coding/now.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-right: 300px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    color: #fff;
+    align-self: flex-end;
+    margin-top: 45px;
+}
+.size .contains .chair{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.size .container .prices{
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 20px;
+}
+.size .containz .tools{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.size .container .tools{
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 20px;
+}
+.size .container .tools .icons{
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+.size .container .tools .icons .ik{
+    display: flex;
+    justify-content: space-between;
+}
+.container .tools .checked{
+    color: orange;
+}
+.size .container .accessories{
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 20px;
+}
+.size .container .accessories h5{
+    color: red;
+}
+.size .containb .accessories{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.size .container .hotdeals{
+    background-image: url(../Project/for\ coding/purple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: #fff;
+    padding-top: 50px;
+    padding-right: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.size .containt .hotdeals{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.size .container .hotdeals button{
+    background-color: rgb(67, 67, 252);
+    color: #fff;
+    padding: 10px;
+}
+.size .container .hours{
+    background-color: grey;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+.container .con{
+    display: flex;
+    padding: 7px;
+}
+.container .con .inp{
+    text-size-adjust: 500px;
+}
+.container .con h3{
+    padding-left: 20px;
+    color: black;
+}
+.container .cont .boxx{
+    display: flex;
+    padding: 5px;
+    list-style: none;
+    background-color: rgb(67, 67, 252);
+}
+.container .cont .boxx a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+/*.container .cont. .boxx li{
+    padding: 50px;
+}*/
+.box .container{
+    display: flex;
+    padding-left: 60px; 
+}
+
+.box{
+    background-image: url(../Project/for\ coding/done.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightslategrey;
+    color: white;
+    margin-top: 50px;
+}
+
+.box .container button{
+    background-color: rgb(67, 67, 252);
+    padding:5px
+}
+
+.box .container .err input{
+    padding: 10px;
+}
+.box .container h2{
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.box .container .err{
+    padding-top: 20px;
+}
+
+.box .container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
